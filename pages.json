@@ -1,0 +1,49 @@
+{
+    "pages" : [
+
+		{
+		    "path" : "pages/ucenter/login",
+		    "style" : {
+				"navigationBarTitleText" : "一研为定",
+				"app-plus":{
+					"bounce":"none"
+				}
+			}
+		},
+		{
+		    "path" : "pages/ucenter/register",
+		    "style" : {
+				"navigationBarTitleText" : "一研为定",
+				"app-plus":{
+					"bounce":"none"
+				}
+			}
+		}
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "Simple App",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8",
+		"app-plus":{
+			"bounce":"none"
+		}
+    },
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#f38031",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/ucenter/login",
+			"iconPath": "static/img/footer/footer-home.png",
+			"selectedIconPath": "static/img/footer/footer-home-act.png",
+			"text": "登录"
+		}, {
+			"pagePath": "pages/ucenter/register",
+			"iconPath": "static/img/footer/footer-task.png",
+			"selectedIconPath": "static/img/footer/footer-task-act.png",
+			"text": "注册"
+		}]
+	}
+}
